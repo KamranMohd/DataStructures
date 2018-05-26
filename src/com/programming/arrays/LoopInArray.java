@@ -15,7 +15,6 @@ public class LoopInArray {
 		// int arr[] = {1, 2};
 		int arr[] = { 0 };
 		System.out.println(isLoopPresent(arr));
-
 	}
 
 	public static boolean isLoopPresent(int[] arr) {
