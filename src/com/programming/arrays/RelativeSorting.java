@@ -9,7 +9,7 @@ public class RelativeSorting {
 
 	public static void main(String[] args) {
 		int arr[] = { 2, 1, 2, 5, 7, 1, 9, 3, 6, 8, 8 };
-		int rel[] = { 2, 1, 8, 3 };
+		int rel[] = { 2, 1, 9 };
 		doRelativeSorting(arr, rel);
 		for (int num : arr)
 			System.out.print(num + " ");
