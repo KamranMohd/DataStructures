@@ -1,4 +1,4 @@
-package com.programming.stacks;
+package com.programming.stacksQueues;
 
 public class FixedSizeStack {
 	int top, capacity;
