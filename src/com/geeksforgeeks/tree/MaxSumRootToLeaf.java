@@ -4,18 +4,6 @@ package com.geeksforgeeks.tree;
  * https://www.geeksforgeeks.org/find-the-maximum-sum-path-in-a-binary-tree/
  */
 
-class Node {
-	int data;
-	Node left;
-	Node right;
-
-	public Node(int data) {
-		this.data = data;
-		this.left = null;
-		this.right = null;
-	}
-}
-
 class Result {
 	int maxSum = Integer.MIN_VALUE;
 	Node leafNode;

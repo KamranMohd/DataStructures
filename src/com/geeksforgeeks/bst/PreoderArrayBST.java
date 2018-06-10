@@ -11,7 +11,8 @@ public class PreoderArrayBST {
 		//int pre[] = { 2, 4, 3 };
 		//int pre[] = {2, 4, 1};
 		//int pre[] = {40, 30, 35, 80, 100};
-		int pre[] = {40, 30, 35, 20, 80, 100};
+		//int pre[] = {40, 30, 35, 20, 80, 100};
+		int pre[] = {40, 30, 35, 37, 80, 40};
 		System.out.println(isArrayPreorder(pre, pre.length));
 	}
 
@@ -21,8 +22,12 @@ public class PreoderArrayBST {
 		for (int i = 0; i < n; i++) {
 			if (arr[i] < root)
 				return false;
-			while (!stack.isEmpty() && arr[i] > stack.peek())
+			while (!stack.isEmpty() && arr[i] > stack.peek()){
 				root = stack.pop();
+				System.out.print(root + " ");
+			}
+			System.out.println();
+				
 			stack.push(arr[i]);
 		}
 		return true;
