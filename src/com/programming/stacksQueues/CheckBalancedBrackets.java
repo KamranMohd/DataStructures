@@ -1,4 +1,4 @@
-package com.programming.stacks;
+package com.programming.stacksQueues;
 
 /*
  * https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
